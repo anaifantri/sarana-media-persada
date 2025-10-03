@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SARANA MEDIA PERSADA | {{ $title }}</title>
+    <title>VISTA MEDIA | {{ $title }}</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -19,7 +19,7 @@
             class="drop-shadow-lg m-auto sm:mt-5 w-20 h-20 sm:w-[90px] sm:h-[90px] flex position-relative bg-white rounded-full border">
             <div
                 class="drop-shadow-md m-auto w-[72px] h-[72px] sm:w-[82px] sm:h-[82px] rounded-full border items-center flex">
-                <img class="w-16 h-16 sm:w-[74px] sm:h-[74px]" src="/img/logo-sarana-media-persada.png" alt="">
+                <img class="w-16 h-16 sm:w-[74px] sm:h-[74px]" src="/img/logo-vista-media.png" alt="">
             </div>
         </div>
         <!-- Logo end-->
@@ -51,7 +51,7 @@
                 <!-- Input username start-->
                 <div
                     class="h-10 sm:w-[238px] w-[192px] sm:h-12 shadow-inner inset-10 sm:mt-6 rounded-2xl items-center justify-center flex">
-                    <input type="text" name="company_id" value="{{ $company->id }}" hidden>
+                    <input type="text" name="company_id" value="{{ encrypt($company->id) }}" hidden>
                     <input name="username" id="username"
                         class="shadow-inner sm:w-[230px] sm:h-10 tracking-wider text-stone-900 h-8 rounded-xl pl-2 outline-none w-[184px]"
                         type="text" placeholder="Username" autofocus required>
