@@ -19,7 +19,7 @@
             class="drop-shadow-lg m-auto sm:mt-5 w-20 h-20 sm:w-[90px] sm:h-[90px] flex position-relative bg-white rounded-full border">
             <div
                 class="drop-shadow-md m-auto w-[72px] h-[72px] sm:w-[82px] sm:h-[82px] rounded-full border items-center flex">
-                <img class="w-16 h-16 sm:w-[74px] sm:h-[74px]" src="/img/logo-vista-media.png" alt="">
+                <img class="w-16 h-16 sm:w-[74px] sm:h-[74px]" src="/img/logo-sarana-media-persada.png" alt="">
             </div>
         </div>
         <!-- Logo end-->

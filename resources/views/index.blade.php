@@ -69,7 +69,7 @@
         <div class="p-10 position-absolute m-auto">
             <div
                 class="border border-transparent flex position-relative mb-5 mx-auto border-white border-opacity-50 rounded-full shadow shadow-white bg-white bg-opacity-20 w-32 h-32 md:w-40 lg:w-40 md:h-40 lg:h-40">
-                <img class="w-24 md:w-32 lg:w-32 m-auto position-absolute" src="/img/logo-vista-media.png"
+                <img class="w-24 md:w-32 lg:w-32 m-auto position-absolute" src="/img/logo-sarana-media-persada.png"
                     alt="">
             </div>
             @auth
