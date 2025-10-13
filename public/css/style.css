@@ -1029,10 +1029,6 @@ video {
   height: 1345px;
 }
 
-.h-\[140px\] {
-  height: 140px;
-}
-
 .h-\[1500px\] {
   height: 1500px;
 }
@@ -1091,6 +1087,10 @@ video {
 
 .h-\[275px\] {
   height: 275px;
+}
+
+.h-\[280px\] {
+  height: 280px;
 }
 
 .h-\[2px\] {
