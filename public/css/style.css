@@ -645,6 +645,14 @@ video {
   grid-column: span 3 / span 3;
 }
 
+.col-start-\[--col-start\] {
+  grid-column-start: var(--col-start);
+}
+
+.col-end-\[--col-end\] {
+  grid-column-end: var(--col-end);
+}
+
 .m-1 {
   margin: 0.25rem;
 }
@@ -1127,6 +1135,10 @@ video {
 
 .h-\[380px\] {
   height: 380px;
+}
+
+.h-\[3px\] {
+  height: 3px;
 }
 
 .h-\[400px\] {
@@ -1920,6 +1932,10 @@ video {
 
 .justify-items-center {
   justify-items: center;
+}
+
+.gap-0 {
+  gap: 0px;
 }
 
 .gap-2 {
