@@ -1474,6 +1474,10 @@ video {
   width: 150px;
 }
 
+.w-\[152px\] {
+  width: 152px;
+}
+
 .w-\[1550px\] {
   width: 1550px;
 }
@@ -1548,10 +1552,6 @@ video {
 
 .w-\[260px\] {
   width: 260px;
-}
-
-.w-\[270px\] {
-  width: 270px;
 }
 
 .w-\[275px\] {
@@ -1708,6 +1708,10 @@ video {
 
 .w-\[610px\] {
   width: 610px;
+}
+
+.w-\[620px\] {
+  width: 620px;
 }
 
 .w-\[64px\] {
